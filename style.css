@@ -2,18 +2,29 @@ html {
     height: 100%;
     width: 100%;
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Courier New"
 }
 
 .heading {
-    color: palevioletred
+    color: palevioletred;
+    font-weight: 800; 
+    font-size: xlarge;
 }
 
 .subheading {
-    color: palevioletred
+    color: palevioletred;
+    font-weight: 500; 
+    font-size: larger; 
+
 }
 
 #photoid {
     width: 100%;
     height: auto;
+}
+
+#me-blurb {
+    display: block;
+    max-width: 500px;
+    text-align: center;
 }
