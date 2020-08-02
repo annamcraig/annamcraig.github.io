@@ -22,12 +22,14 @@ body {
     font-weight: 650; 
     font-size: xlarge;
     padding-bottom: 0;
+    margin: 0 auto;
 }
 
 .subheading {
     color: palevioletred;
     font-weight: 500; 
     font-size: larger; 
+    margin: 0 auto;
 }
 
 #photoid {
