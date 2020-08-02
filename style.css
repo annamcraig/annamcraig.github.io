@@ -7,13 +7,13 @@ html {
 
 .heading {
     color: palevioletred;
-    font-weight: 800; 
+    font-weight: 700; 
     font-size: xlarge;
 }
 
 .subheading {
     color: palevioletred;
-    font-weight: 500; 
+    font-weight: 550; 
     font-size: larger; 
 
 }
@@ -25,6 +25,12 @@ html {
 
 #me-blurb {
     display: block;
-    max-width: 500px;
+    max-width: 300px;
     text-align: center;
+}
+
+p {
+    color: palevioletred;
+    font-weight: 500;
+    font-size: medium; 
 }
