@@ -7,7 +7,7 @@ html {
 
 .heading {
     color: palevioletred;
-    font-weight: 700; 
+    font-weight: 650; 
     font-size: xlarge;
 }
 
@@ -29,7 +29,7 @@ html {
     text-align: center;
 }
 
-p {
+#me-blurb p {
     color: palevioletred;
     font-weight: 500;
     font-size: medium; 
