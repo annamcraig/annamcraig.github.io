@@ -21,7 +21,7 @@ body {
     color: palevioletred;
     font-weight: 650; 
     font-size: xlarge;
-    padding-bottom: 30px;
+    padding-bottom: 0;
 }
 
 .subheading {
