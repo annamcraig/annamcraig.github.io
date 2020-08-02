@@ -51,7 +51,7 @@ body {
     padding: 0; 
 }
 
-#buttons li {
+#buttons li a {
     background: lightpink; 
     border: lightpink solid 1px; 
     border-radius: 3px;
@@ -62,7 +62,7 @@ body {
     text-decoration: none;
 }
 
-#buttons li:hover {
+#buttons li a:hover {
     background: white;
     border: 1px solid lightpink; 
     color: lightpink; 
