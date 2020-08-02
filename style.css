@@ -34,7 +34,20 @@ html {
 
 #buttons li {
     margin: 0;
-    padding: 20px; 
-    border: lightpink solid 3px; 
-    border-radius: 5%;
+    padding: 14px; 
+    border: lightpink solid 1px; 
+    border-radius: 3px;
+    display: inline-block; 
+    font-weight: 200;
+    color: weight;
+    text-decoration: none;
+
 }
+
+#buttons li:hover {
+    background: white;
+    border: 1px solid lightpink; 
+    color: lightpink; 
+
+}
+  
