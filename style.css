@@ -55,4 +55,13 @@ html {
     color: lightpink; 
 
 }
+
+#content {
+    height: 100%;
+    padding: 24px;
+    width: 100%;
+    max-width: 600px;
+    padding-top: 8em;
+    padding-bottom: 4em;
+}
   
