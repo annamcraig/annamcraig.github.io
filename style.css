@@ -25,11 +25,15 @@ html {
 
 #me-blurb {
     display: block;
-    max-width: 400px;
+    max-width: 300px;
     color: palevioletred;
     font-weight: 500;
     font-size: medium; 
     text-align: left;
+}
+
+#buttons {
+    margin: 0 auto; 
 }
 
 #buttons li {
@@ -39,8 +43,9 @@ html {
     border-radius: 3px;
     display: inline-block; 
     font-weight: 200;
-    color: weight;
+    color: lightpink; 
     text-decoration: none;
+    margin: 5px; 
 
 }
 
