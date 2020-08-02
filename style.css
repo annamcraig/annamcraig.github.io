@@ -2,7 +2,7 @@ html {
     height: 100%;
     width: 100%;
     color: white;
-    font-family: "Courier New"; 
+    font-family: "Helvetica"; 
 }
 
 .heading {
@@ -26,20 +26,15 @@ html {
 #me-blurb {
     display: block;
     max-width: 400px;
-}
-
-#me-blurb p {
-    color: orange;
+    color: palevioletred;
     font-weight: 500;
     font-size: medium; 
     text-align: left;
 }
 
-#content {
-    height: 100%;
-    padding: 24px;
-    width: 100%;
-    max-width: 600px;
-    padding-top: 8em;
-    padding-bottom: 4em;
+#buttons {
+    margin: 0;
+    padding: 20px; 
+    border: lightpink solid 3px; 
+    border-radius: 5%;
 }
