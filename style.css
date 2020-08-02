@@ -42,26 +42,26 @@ html {
 
 #buttons {
     margin: 0 auto; 
+    text-align: center;
+    width: 100%;
+    padding: 0; 
 }
 
 #buttons li {
-    margin: 0;
-    padding: 14px; 
+    background: lightpink; 
     border: lightpink solid 1px; 
     border-radius: 3px;
+    color: white; 
     display: inline-block; 
-    font-weight: 200;
-    color: lightpink; 
+    margin: 10px;
+    padding: 14px; 
     text-decoration: none;
-    margin: 5px; 
-
 }
 
 #buttons li:hover {
     background: white;
     border: 1px solid lightpink; 
     color: lightpink; 
-
 }
 
 
