@@ -5,6 +5,14 @@ html {
     font-family: "Helvetica"; 
 }
 
+#content {
+    height: 100%;
+    padding: 24px;
+    width: 100%;
+    max-width: 600px;
+    padding: 0 auto; 
+}
+
 .heading {
     color: palevioletred;
     font-weight: 650; 
@@ -56,12 +64,5 @@ html {
 
 }
 
-#content {
-    height: 100%;
-    padding: 24px;
-    width: 100%;
-    max-width: 600px;
-    padding-top: 8em;
-    padding-bottom: 4em;
-}
+
   
