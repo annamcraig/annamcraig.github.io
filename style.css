@@ -32,7 +32,7 @@ html {
     text-align: left;
 }
 
-#buttons {
+#buttons li {
     margin: 0;
     padding: 20px; 
     border: lightpink solid 3px; 
