@@ -2,20 +2,20 @@ html {
     height: 100%;
     width: 100%;
     color: white;
-    font-family: "Courier New"
+    font-family: "Courier New"; 
 }
 
 .heading {
     color: palevioletred;
     font-weight: 650; 
     font-size: xlarge;
+    padding-bottom: 30px;
 }
 
 .subheading {
     color: palevioletred;
-    font-weight: 550; 
+    font-weight: 500; 
     font-size: larger; 
-
 }
 
 #photoid {
@@ -25,12 +25,21 @@ html {
 
 #me-blurb {
     display: block;
-    max-width: 300px;
-    text-align: center;
+    max-width: 400px;
 }
 
 #me-blurb p {
     color: palevioletred;
     font-weight: 500;
     font-size: medium; 
+    text-align: left;
+}
+
+#content {
+    height: 100%;
+    padding: 24px;
+    width: 100%;
+    max-width: 600px;
+    padding-top: 8em;
+    padding-bottom: 4em;
 }
