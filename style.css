@@ -2,19 +2,23 @@
 html {
     height: 100%;
     width: 100%;
-    background-color: lightgray;
+    color: white;
     font-family: "Helvetica"; 
 }
 
 body {
     margin: 0 auto; 
+    height: 100%;
+    background-color: lightgray;
 }
 
 #content {
     height: 100%;
-    padding: 40;
+    padding: 24px;
     width: 100%;
-    max-width: 800px;
+    max-width: 1000px;
+    padding-top: 100px;
+    padding-bottom: 200 px; 
 }
 
 .heading {
@@ -37,7 +41,6 @@ body {
     margin: 0 auto; 
     width: 100%;
     padding: 10; 
-    display: inline-block;
     text-align: center;
 }
 
@@ -48,6 +51,7 @@ body {
     color: white; 
     margin: 10px;
     padding: 14px; 
+    display: inline-block;
     text-decoration: none;
 }
 
@@ -60,6 +64,7 @@ body {
 #photoid {
     width: 100%;
     height: auto;
+    border-radius: 50px 5px 50px 5px;
 }
 
 #me-blurb {
