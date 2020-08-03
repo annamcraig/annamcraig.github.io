@@ -59,13 +59,13 @@
   #me-blurb .bio {
       max-width: 300px;
       background: rgb(255, 255, 255, .75);
-      padding: 20px;
+      padding: 14px;
       border-radius: 10px; 
       color: darkgray; 
-      font-size: 8px; 
+      font-size: 20px; 
   }
 
-  #banner .content .about {
+  #about {
       color: white;
       margin-bottom: 0;
       margin-top: 0; 
