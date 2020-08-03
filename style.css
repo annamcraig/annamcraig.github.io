@@ -37,7 +37,6 @@
       border: lightpink solid 1px; 
       border-radius: 3px;
       color: white; 
-      display: inline-block;
       margin: 10px;
       padding: 14px; 
       text-decoration: none;
@@ -49,8 +48,7 @@
       color: lightpink; 
   }
 
-  .photoid {
+  #banner .photoid {
       width: 300px;
-      height: 100%;
       border-radius: 50px 5px 50px 5px;
   }
