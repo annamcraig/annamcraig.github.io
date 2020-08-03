@@ -3,7 +3,7 @@
     background-color: darkgrey;
     font-family: 'Raleway', sans-serif;
     margin: 0 auto;
-    max-width: 2000px;
+    max-width: 2000px; 
   
   }
   
@@ -11,11 +11,11 @@
     background-image: url("cherry.JPG");
     background-size: cover;
     background-position: center;
-    width: 50%; 
+    width: 100%; 
     border: 5px lightpink solid;
     border-radius: 10px;
     padding: 100px;
-    height: 700px; 
+    height: 700px;
     margin: 0 auto;
   }
 
