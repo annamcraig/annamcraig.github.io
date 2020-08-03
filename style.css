@@ -26,6 +26,7 @@
   #banner .content li {
       display: inline-block; 
       margin-left: 0;
+      margin-top: 10px;
    }
   
 
