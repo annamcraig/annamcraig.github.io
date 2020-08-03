@@ -8,9 +8,10 @@
   }
   
   #banner {
-    background-image: url("cherry.JPG"); 
+    background-image: url("cherry.JPG");
     background-size: cover;
     background-position: center;
+    opacity: 25%;
     width: 50%; 
     border: 5px lightpink solid;
     border-radius: 10px;
@@ -19,8 +20,9 @@
     margin: 0 auto;
   }
 
-  #banner .content h1 {
+  #banner .content h1, h2 {
     text-align: left;
+    color: white;
   }
   
   #banner .content {
@@ -30,7 +32,7 @@
     width: 100%
   }
   
-  #banner .content li {
+  #banner .content li a {
       background: lightpink; 
       border: lightpink solid 1px; 
       border-radius: 3px;
@@ -47,6 +49,8 @@
       color: lightpink; 
   }
 
-  .aboutme {
-      opacity: 50;
+  .photoid {
+      width: 300px;
+      height: 100%;
+      border-radius: 50px 5px 50px 5px;
   }
