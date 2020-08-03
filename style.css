@@ -10,13 +10,14 @@
     background-position: center;
     padding-top: 50px;
     padding-left: 550px;
+    height: 100%; 
   }
   
   #banner .content {
     position: relative;
     text-align: left;
     max-width: 1000px; 
-    color: red;
+    color: white;
     margin-bottom: 5px; 
     margin-top: 5px; 
 
