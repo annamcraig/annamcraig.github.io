@@ -10,7 +10,7 @@
     background-position: center;
     padding-top: 85px;
     padding-left: 550px;
-    height: 725px; 
+    height: 675px; 
   }
   
   #banner .content {
@@ -26,7 +26,7 @@
   #banner .content li {
       display: inline-block; 
       margin-left: 0;
-      margin-top: 10px;
+      margin-top: 30px;
    }
   
 
