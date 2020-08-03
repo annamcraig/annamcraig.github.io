@@ -1,79 +1,52 @@
 
-html {
-    height: 100%;
-    width: 100%;
-    color: white;
-    
-}
-
-body {
-    margin: 0 auto; 
-    height: 100%;
-    font-family: "Raleway"; 
-    background-color: darkgrey;
-}
-
-#content {
-    height: 100%;
-    padding: 24px;
-    width: 100%;
-    max-width: 1000px;
-    padding-top: 100px;
-    padding-bottom: 200 px; 
-}
-
-.heading {
-    color: palevioletred;
-    font-weight: 650; 
-    font-size: xlarge;
-    padding-bottom: 30px;
+  body {
+    background-color: lightgrey;
+    font-family: 'Raleway', sans-serif;
     margin: 0 auto;
-}
-
-.subheading {
-    color: palevioletred;
-    font-weight: 500; 
-    font-size: larger; 
+    max-width: 2000px;
+  
+  }
+  
+  #banner {
+    background-image: url("cherry.JPG");
+    background-size: cover;
+    background-position: center;
+    width: 50%; 
+    border: 5px lightpink solid;
+    border-radius: 10px;
+    padding: 100px;
+    height: 700px; 
     margin: 0 auto;
-}
+  }
 
-
-#buttons {
-    margin: 0 auto; 
-    padding: 50px; 
-    position: relative;
-    text-align: center;
-    width: 100%
-}
-
-#buttons li a {
-    background: lightpink; 
-    border: lightpink solid 1px; 
-    border-radius: 3px;
-    color: white; 
-    display: inline-block;
-    margin: 10px;
-    padding: 14px; 
-    text-decoration: none;
-}
-
-#buttons li a:hover {
-    background: white;
-    border: 1px solid lightpink; 
-    color: lightpink; 
-}
-
-#photoid {
-    width: 100%;
-    height: auto;
-    border-radius: 50px 5px 50px 5px;
-}
-
-#me-blurb {
-    display: block;
-    max-width: 300px;
-    color: palevioletred;
-    font-weight: 500;
-    font-size: medium; 
+  #banner .content h1 {
     text-align: left;
-}
+  }
+  
+  #banner .content {
+    position: relative;
+    margin: 0 auto;
+    text-align: left;
+    width: 100%
+  }
+  
+  #banner .content li {
+      background: lightpink; 
+      border: lightpink solid 1px; 
+      border-radius: 3px;
+      color: white; 
+      display: inline-block;
+      margin: 10px;
+      padding: 14px; 
+      text-decoration: none;
+  }
+  
+  #banner .content li a:hover {
+      background: white;
+      border: 1px solid lightpink; 
+      color: lightpink; 
+  }
+
+  .aboutme {
+      opacity: 50;
+  }
