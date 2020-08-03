@@ -17,15 +17,15 @@
     text-align: left;
     max-width: 1000px; 
     color: white;
-    margin-bottom: 15 px; 
-    margin-top: 15px; 
+    margin-bottom: 5 px; 
+    margin-top: 5px; 
 
   }
   
   #banner .content li {
-      display: inline; 
-      margin-left: 0;
-  }
+      display: inline-block; 
+   }
+  
 
   #banner .content li a {
       background: lightpink; 
