@@ -32,7 +32,7 @@
       margin: 10px;
       padding: 14px; 
       text-decoration: none;
-      display: inline-flex; 
+      display: inline-block; 
   }
   
   #banner .content li a:hover {
