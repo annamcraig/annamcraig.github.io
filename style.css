@@ -5,11 +5,9 @@
   }
   
   #banner {
-    background-image: url("cherry.JPG");
+    background-image: url("cherry.JPG") no-repeat center fixed; 
     background-size: cover;
     background-position: center;
-    width: 100%; 
-    height: 100%;
     padding-top: 150px;
     padding-left: 700px;
   }
