@@ -56,18 +56,17 @@
       margin-bottom: 5px; 
   }
 
-  #me-blurb {
-      display: inline-block; 
-  }
-
   #me-blurb .bio {
       max-width: 300px;
-      background: rgb(169,169,169, .75);
-      padding: 15px;
+      background: rgb(255, 255, 255, .75);
+      padding: 20px;
       border-radius: 10px; 
+      color: darkgray; 
+      font-size: 8px; 
   }
 
   #banner .content .about {
-      color: darkgray;
-      margin-bottom: 1px;
+      color: white;
+      margin-bottom: 0;
+      margin-top: 0; 
   }
