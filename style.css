@@ -62,7 +62,7 @@
 
   #me-blurb .bio {
       max-width: 300px;
-      background: rgb(169,169,169, .8);
+      background: rgb(169,169,169, .65);
       padding: 15px;
       border-radius: 10px; 
   }
