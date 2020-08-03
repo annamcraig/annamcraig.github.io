@@ -65,3 +65,7 @@
       background: black;
       opacity: 50%;
   }
+
+  #banner .content h1, h2 {
+      color: darkgray;
+  }
