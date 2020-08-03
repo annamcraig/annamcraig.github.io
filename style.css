@@ -2,7 +2,7 @@
 html {
     height: 100%;
     width: 100%;
-    color: lightgray;
+    background-color: lightgray;
     font-family: "Helvetica"; 
 }
 
@@ -38,6 +38,7 @@ body {
     width: 100%;
     padding: 10; 
     display: inline-block;
+    text-align: center;
 }
 
 #buttons li a {
