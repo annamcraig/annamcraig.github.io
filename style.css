@@ -12,23 +12,16 @@
     background-size: cover;
     background-position: center;
     width: 100%; 
-    border: 5px lightpink solid;
-    border-radius: 10px;
-    padding: 100px;
     height: 700px;
-    margin: 0 auto;
-  }
-
-  #banner .content h1, h2 {
-    text-align: left;
-    color: white;
+    margin: 100px auto;
   }
   
   #banner .content {
     position: relative;
     margin: 0 auto;
     text-align: left;
-    width: 100%
+    max-width: 1000px; 
+    color: white;
   }
   
   #banner .content li a {
