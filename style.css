@@ -5,11 +5,8 @@
     width: 100%;
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   }
-  
-  .center-column {
-    align-self: center;
-  }
 
+  /*---constant theme--*/
   .background {
     padding-top: 6%;
     padding-bottom: 6%;
@@ -37,7 +34,15 @@
     font-weight: 575;
   }
 
-  
+  /*---index page--*/
+  #photoid {
+    max-width: 300px;
+    display: block;
+    border-radius: 50px 5px 50px 5px;
+    margin-bottom: 5px; 
+    margin-top: 25px;
+  }
+
   .buttons {
     color: white;
     margin-bottom: 30px; 
@@ -48,9 +53,8 @@
   
   .buttons li {
       display: inline; 
-   }
+  }
   
-
   .buttons li a {
       background: lightpink; 
       border: lightpink solid 1px; 
@@ -71,15 +75,7 @@
       color: lightpink; 
   }
 
-  #photoid {
-      max-width: 300px;
-      display: block;
-      border-radius: 50px 5px 50px 5px;
-      margin-bottom: 5px; 
-      margin-top: 25px;
-      
-  }
-
+  /*---about page--*/
   .bio {
       max-width: 350px;
       background: white;
