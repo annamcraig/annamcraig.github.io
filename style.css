@@ -41,6 +41,7 @@
       margin-left: 0;
       padding: 14px; 
       text-decoration: none;
+      font-size: larger; 
   }
   
   #banner .content li a:hover {
