@@ -1,7 +1,9 @@
 
-  body {
+  html body {
     background-color: darkgrey;
-    font-family: 'Georgia'
+    height: 100%;
+    width: 100%;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   }
   
   #banner {
