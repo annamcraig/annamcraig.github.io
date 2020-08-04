@@ -18,7 +18,15 @@
     background: url('cherry.JPG') no-repeat center fixed; 
     background-size: cover;
     background-position: center; 
-    height: 120%;
+    height: 100%;
+  }
+
+  .heading {
+    text-align: left;
+    color: darkgrey;
+    margin-bottom: 20px; 
+    font-size: 1.8em; 
+    font-weight: 700;
   }
 
   
@@ -27,6 +35,8 @@
     margin-bottom: 30px; 
     font-size: 1.2em; 
     font-weight: 550;
+    margin-top: 30px;
+    align-self: left; 
   }
   
   .buttons li {
@@ -49,7 +59,7 @@
   
   .buttons li a:hover {
       background: white;
-      border: 1px solid rgb(183, 110, 133); 
+      border: 1px solid lightpink;
       color: lightpink; 
   }
 
