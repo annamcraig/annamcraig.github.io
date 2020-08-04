@@ -10,11 +10,11 @@
   .background {
     padding-top: 4%;
     padding-bottom: 4%;
-    padding-left:9%;
-    padding-right:9%;
+    padding-left:4%;
+    padding-right:4%;
     background: url('cherry.JPG') no-repeat center fixed; 
     background-size: cover;
-    background-position: center; 
+    background-position: center;
     min-height: 700px;
     height: 100%;
   }
@@ -53,14 +53,14 @@
   .photoid {
     border-radius: 50px 5px 50px 5px;
     margin-bottom: 5px; 
-    max-height: 500px; 
+    align-self: right;
   }
 
   .buttons {
     color: white;
     margin-bottom: 30px; 
-    font-size: 1.2em; 
-    font-weight: 550;
+    font-size: 1.5em; 
+    font-weight: 450;
     margin-top: 30px;
   }
   
