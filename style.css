@@ -8,8 +8,8 @@
 
   /*---constant theme--*/
   .background {
-    padding-top: 6%;
-    padding-bottom: 6%;
+    padding-top: 4%;
+    padding-bottom: 4%;
     padding-left:9%;
     padding-right:9%;
     background: url('cherry.JPG') no-repeat center fixed; 
@@ -36,6 +36,11 @@
     font-weight: 650;
   }
 
+  .move {
+    margin-left: 7.5%; 
+    margin-top: 5%;
+  }
+
   .subheading {
     text-align: left;
     color: white;
@@ -45,12 +50,9 @@
   }
 
   /*---index page--*/
-  #photoid {
-    max-width: 300px;
-    display: block;
+  .photoid {
     border-radius: 50px 5px 50px 5px;
     margin-bottom: 5px; 
-    margin-top: 25px;
   }
 
   .buttons {
