@@ -85,3 +85,26 @@
       font-size: 20px; 
   }
 
+  /*---project page--*/
+  .single-button {
+    color: white;
+    margin-bottom: 30px; 
+    margin-top: 30px;
+    margin-left: 35%; 
+    margin-right: 35%; 
+    font-weight: 550;
+    margin-top: 30px;
+    background: lightpink; 
+    border: lightpink solid 1px; 
+    border-radius: 7px;
+    margin-right: 5px;
+    padding: 14px; 
+    text-decoration: none;
+    font-size: 0.9em; 
+  }
+  
+  .single-button hover {
+      background: white;
+      border: 1px solid lightpink;
+      color: lightpink; 
+  }
