@@ -6,49 +6,48 @@
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   }
   
-  #banner {
+  .center-column {
+    align-self: center;
+  }
+
+  .background {
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left:9%;
+    padding-right:9%;
     background: url('cherry.JPG') no-repeat center fixed; 
     background-size: cover;
-    background-position: center;
-    padding-top: 85px;
-    height: 700px; 
+    background-position: center; 
+    height: 120%;
   }
+
   
-  #banner .content {
-    position: relative;
-    text-align: left;
-    max-width: 1000px; 
+  .buttons {
     color: white;
     margin-bottom: 30px; 
-    margin-top: 0; 
     font-size: 1.2em; 
     font-weight: 550;
-    padding: 0;
-
   }
   
-  #banner .content li {
+  .buttons li {
       display: inline-block; 
-      margin-left: 0;
-      margin: 0;
    }
   
 
-  #banner .content li a {
+  .buttons li a {
       background: lightpink; 
       border: lightpink solid 1px; 
       border-radius: 7px;
       color: white; 
       margin-right: 5px;
       margin-top: 30px;
-      margin-bottom: 50px; 
-      margin-left: 0;
+      margin-bottom: 100px; 
       padding: 14px; 
       text-decoration: none;
       font-size: 0.9em; 
   }
   
-  #banner .content li a:hover {
+  .buttons li a:hover {
       background: white;
       border: 1px solid rgb(183, 110, 133); 
       color: lightpink; 

@@ -1,78 +1,78 @@
-html {
-    height: 100%;
-    width: 100%;
-    color: white;
-    
-}
 
-body {
-    margin: 0 auto; 
-    height: 100%;
-    font-family: "Raleway"; 
+  html body {
     background-color: darkgrey;
-}
-
-#content {
     height: 100%;
-    padding: 24px;
     width: 100%;
-    max-width: 1000px;
-    padding-top: 100px;
-    padding-bottom: 200 px; 
-}
-
-.heading {
-    color: palevioletred;
-    font-weight: 650; 
-    font-size: xlarge;
-    padding-bottom: 30px;
-    margin: 0 auto;
-}
-
-.subheading {
-    color: palevioletred;
-    font-weight: 500; 
-    font-size: larger; 
-    margin: 0 auto;
-}
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  }
 
 
-#buttons {
-    margin: 0 auto; 
-    padding: 50px; 
+  #banner {
+    background: url('cherry.JPG') no-repeat center fixed; 
+    background-size: cover;
+    background-position: center;
+    padding-top: 85px;
+    height: 700px; 
+  }
+  
+  #banner .content {
     position: relative;
-    text-align: center;
-    width: 100%
-}
-
-#buttons li a {
-    background: lightpink; 
-    border: lightpink solid 1px; 
-    border-radius: 3px;
-    color: white; 
-    display: inline-block;
-    margin: 10px;
-    padding: 14px; 
-    text-decoration: none;
-}
-
-#buttons li a:hover {
-    background: white;
-    border: 1px solid lightpink; 
-    color: lightpink; 
-}
-
-#photoid {
-    width: 100%;
-    height: auto;
-    border-radius: 50px 5px 50px 5px;
-}
-
-#me-blurb {
-    display: block;
-    max-width: 300px;
-    color: palevioletred;
-    font-weight: 500;
-    font-size: medium; 
     text-align: left;
-}
+    max-width: 1000px; 
+    color: white;
+    margin-bottom: 30px; 
+    margin-top: 0; 
+    font-size: 1.2em; 
+    font-weight: 550;
+    padding: 0;
+
+  }
+  
+  #banner .content li {
+      display: inline-block; 
+      margin-left: 0;
+      margin: 0;
+   }
+  
+
+  #banner .content li a {
+      background: lightpink; 
+      border: lightpink solid 1px; 
+      border-radius: 7px;
+      color: white; 
+      margin-right: 5px;
+      margin-top: 30px;
+      margin-bottom: 100px; 
+      margin-left: 0;
+      padding: 14px; 
+      text-decoration: none;
+      font-size: 0.9em; 
+  }
+  
+  #banner .content li a:hover {
+      background: white;
+      border: 1px solid rgb(183, 110, 133); 
+      color: lightpink; 
+  }
+
+  #photoid {
+      max-width: 300px;
+      display: block;
+      border-radius: 50px 5px 50px 5px;
+      margin-bottom: 5px; 
+  }
+
+  #me-blurb .bio {
+      max-width: 300px;
+      background: rgb(255, 255, 255, .75);
+      padding: 14px;
+      border-radius: 10px; 
+      color: darkgray; 
+      font-size: 20px; 
+  }
+
+  #about {
+      color: white;
+      margin-bottom: 0;
+      margin-top: 0; 
+  }
