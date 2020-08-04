@@ -23,7 +23,7 @@
 
   .heading {
     text-align: left;
-    color: darkgrey;
+    color: white;
     margin-bottom: 20px; 
     font-size: 1.8em; 
     font-weight: 700;
@@ -68,7 +68,7 @@
       display: block;
       border-radius: 50px 5px 50px 5px;
       margin-bottom: 5px; 
-      margin-top: 85px; 
+      margin-top: 50px; 
   }
 
   #me-blurb .bio {
