@@ -28,24 +28,9 @@
     margin-bottom: 7%;
   }
 
-  .even {
-    background-color: white;
-    border-bottom: 1px solid white;
-    border-top: 1px solid white;
-    margin-top: 5%; 
-    margin-bottom: 5%;
-    padding: 2%; 
-    border-radius: 20px;
-    color: black;
-  }
+  .padding-2 {
+    padding: 1%;
 
-  .odd {
-    background-color: lightgrey;
-    border-bottom: 1px solid lightgrey;
-    border-top: 1px solid lightgrey;
-    padding: 2%; 
-    border-radius: 20px;
-    color: black;
   }
 
   .heading {
@@ -67,14 +52,6 @@
   .move {
     margin-left: 7.5%; 
     margin-top: 5%;
-  }
-
-  .subheading {
-    text-align: left;
-    color: white;
-    margin-bottom: 20px; 
-    font-size: 1.7em; 
-    font-weight: 600;
   }
 
   /*---index page--*/
@@ -121,7 +98,7 @@
       max-width: 400px;
       background: white;
       padding: 19px;
-      border-radius: 10%; 
+      border-radius: 20px; 
       color: darkgray; 
       font-size: 20px; 
   }
@@ -156,3 +133,42 @@
       border: 1px solid lightpink;
       color: lightpink; 
   }
+
+  .even {
+    background-color: white;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    margin-top: 5%; 
+    margin-bottom: 5%;
+    padding: 2%; 
+    border-radius: 20px;
+    color: black;
+  }
+
+  .odd {
+    background-color: #FDF2EE;
+    border-bottom: 1px solid #FDF2EE;
+    border-top: 1px solid #FDF2EE;
+    padding: 2%; 
+    border-radius: 20px;
+    color: black;
+  }
+
+   /*---honors page--*/
+
+   .title {
+    text-align: left;
+    margin-bottom: 10px; 
+    font-size: 1.7em; 
+    font-weight: 550;
+  }
+
+  .date {
+    text-align: left;
+    color:  #8B8989;
+    margin-bottom: 5px; 
+    font-size: 0.8em; 
+  }
+
+
+
