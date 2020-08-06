@@ -15,7 +15,7 @@
     background: url('cherry.JPG') no-repeat center fixed; 
     background-size: cover;
     background-position: center;
-    min-height: 700px;
+    min-height: 800px;
     height: 100%;
   }
 
@@ -53,7 +53,7 @@
     color: white;
     margin-bottom: 10px; 
     font-size: 2.5em; 
-    font-weight: 500;
+    font-weight: 550;
   }
 
   .heading-2 {
@@ -74,7 +74,7 @@
     color: white;
     margin-bottom: 20px; 
     font-size: 1.7em; 
-    font-weight: 575;
+    font-weight: 600;
   }
 
   /*---index page--*/
@@ -118,9 +118,9 @@
 
   /*---about page--*/
   .bio {
-      max-width: 350px;
+      max-width: 400px;
       background: white;
-      padding: 14px;
+      padding: 19px;
       border-radius: 10%; 
       color: darkgray; 
       font-size: 20px; 
