@@ -130,9 +130,15 @@
   .single-button {
     color: white;
     margin-bottom: 30px; 
+    font-size: 1.5em; 
+    font-weight: 450;
     margin-top: 30px;
-    margin-left: 35%; 
-    margin-right: 35%; 
+    display: inline-block;
+  }
+
+  .single-button a {
+    color: white;
+    margin: 30px auto; 
     font-weight: 550;
     margin-top: 30px;
     background: lightpink; 
@@ -144,8 +150,9 @@
     font-size: 0.9em; 
   }
   
-  .single-button hover {
+  .single-button a:hover {
       background: white;
+      text-decoration: none;
       border: 1px solid lightpink;
       color: lightpink; 
   }
