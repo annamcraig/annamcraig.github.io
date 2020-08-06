@@ -19,6 +19,10 @@
     height: 100%;
   }
 
+  .margins {
+    margin-top: 7%;
+  }
+
   .padding {
     padding-top: 2%;
     padding-bottom: 7%;
@@ -26,6 +30,24 @@
     padding-right:2%;
     margin-top: 7%;
     margin-bottom: 7%;
+  }
+
+  .even {
+    background-color: lightgray;
+    border-bottom: 1px solid lightgray;
+    border-top: 1px solid lightgray;
+    margin-top: 5%; 
+    margin-bottom: 5%;
+    padding: 2%; 
+    border-radius: 20px;
+  }
+
+  .odd {
+    background-color: white;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    padding: 2%; 
+    border-radius: 20px;
   }
 
   .heading {
