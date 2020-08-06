@@ -19,10 +19,6 @@
     height: 100%;
   }
 
-  .margins {
-    margin-top: 7%;
-  }
-
   .padding {
     padding-top: 2%;
     padding-bottom: 7%;
@@ -33,27 +29,37 @@
   }
 
   .even {
-    background-color: lightgray;
-    border-bottom: 1px solid lightgray;
-    border-top: 1px solid lightgray;
+    background-color: white;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
     margin-top: 5%; 
     margin-bottom: 5%;
     padding: 2%; 
     border-radius: 20px;
+    color: black;
   }
 
   .odd {
-    background-color: white;
-    border-bottom: 1px solid white;
-    border-top: 1px solid white;
+    background-color: lightgrey;
+    border-bottom: 1px solid lightgrey;
+    border-top: 1px solid lightgrey;
     padding: 2%; 
     border-radius: 20px;
+    color: black;
   }
 
   .heading {
     text-align: left;
     color: white;
     margin-bottom: 10px; 
+    font-size: 2.5em; 
+    font-weight: 500;
+  }
+
+  .heading-2 {
+    text-align: center;
+    color: white;
+    margin-bottom: 3%; 
     font-size: 2.5em; 
     font-weight: 500;
   }
