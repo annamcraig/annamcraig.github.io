@@ -1,44 +1,106 @@
 <!DOCTYPE html>
-
-<html>
-    <head>
-       
-        <title>Industry Projects</title>
-        <link href="./style.css" type="text/css" rel="stylesheet">
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">s
-   
-    </head>
-
-    <body>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Anna Craig">
+    <meta name="description" content="Industry Projects">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://kit.fontawesome.com/9b8bb45ad4.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Industry Projects</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container-fluid">
-            <div class="background">
-                <h1 class="heading-2">Industry Projects</h1>
-                <div class="container odd">
-                    <div class="row">
-                        <div class="col-lg-7">
-                            <h1 class="title">Bacteriophage Stability</h1>
-                            <h3 class="date">Summer 2019</h3>
-                            <p>I served as a biotechnology associate intern within the E. coli diagnostics development team for the <a href="https://www.intellectualventures.com/what-we-do/global-good-fund/our-work/" target="_blank">Global Good Fund</a>
-                                at Intellectual Ventures. To increase the long-term stability of bacteriophages for device field testing and use, 
-                                I developed a study that evaluated the impact of the addition of additives to the stability of bacteriophage in liquid 
-                                over eight weeks. Throughout the project, I designed a liquid assay assessment to measure bacteriophage reporter ouput, to
-                                be analyzed via excel, and conducted titer experiments as a secondary assessment. In addition, I presented research 
-                                results to senior scientists, managers and directors to support product development in the company.
-                            </p>
-                            <div class="single-button">
-                                <a href="https://www.intellectualventures.com" target="_blank">Intellectual Ventures</a>
-                            </div>
-                        </div>
-                        <br>
-                        <div class="col-lg-5 text-center center-column">
-                            <img src="images/iv.png" class = "img-fluid" style = "width: 100%;height: auto;">
-                        </div>
-                    </div>
-                </div>
-            </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a href='index.html' alt='Home Page Link'>Home</a>
+              </li>
+              <li class="nav-item">
+                <a href='about.html' alt='About Page Link'>About</a>
+              </li>
+              <li class="nav-item">
+                <a href='projects.html' alt='Projects Page Link'>Projects</a>
+              </li>
+              <li class="nav-item">
+                <a href='honors.html' alt='Honors Page Link'>Honors</a>
+              </li>
+              
+            </ul>
+          </div>
         </div>
-                
-    </body>
+    </nav>
+    <header class='center'> 
+        <h1>Industry Projects</h1>
+    </header>
 
+    <main>
+        <div class='projects container'>
+
+            <h2>Curi Bio</h2>
+            <p class="date">Fall 2020 - Spring 2021</p>
+            <section class='inline'>
+                <img class='proj-screenshots' src='img/curi.jpg' alt='Curi Bio Logo'> 
+                <p>This past year I was lucky enough to work as a software engineer at <a href="https://www.curibio.com" target="_blank">CuriBio</a>, a biotechnology company creating solutions for improving therapeutic outcomes for muscular diseases. At CuriBio, I developed methods for analysis, storage and visualization for biological data. Additionally, I optimized the storage of files within each repository by developing a file trimming method, to keep only pertainit sections of a given file. As issues with current customers arose, I communicated directly with customers to diagnose the problem and solive it efficiently. Throughout my time at Curi, I became confident at presenting my contributions at weekly sprint meetings and engaged in paired programming to write high quality code.  
+                </p>
+            </section>
+
+            <h2>PruneTrain</h2>
+            <p class="date">Winter 2021 - Spring 2021</p>
+            <section class='inline'>
+                <p>As apart of the iSchool at the University of Washington, I participated in an industry project with <a href="https://www.microsoft.com/en-us/ai/ai-for-earth" target="_blank">Microsoft</a>, as the team lead. The goal of the project was to decrease carbon emissions by reducing training time for models through extending PruneTrain work. In doing so I facilitated weekly meetings to present the groups progress to our Microsoft mentors, acted as a liaison between mentors and the group, delegated tasks and maintained our designated timeline. Additionally, I implemented an API for the PruneTrain algorithm to create a public facing sample and ran experiments on Azure while implementing the algorithm on various datasets such as Cifar and ImageNet.
+                </p>
+                <img class='proj-screenshots' src='img/mkst.jpg' alt='Microsoft Logo'> 
+            </section>
+
+            <h2>Intellectual Ventures</h2>
+            <p class="date">Summer 2019</p>
+            <section class='inline'>
+                <img class='proj-screenshots' src='img/iv.png' alt='Intellectual Ventures Logo'> 
+                <p>I served as a biotechnology associate intern within the E. coli diagnostics development team for the <a href="https://www.intellectualventures.com/what-we-do/global-good-fund/our-work/" target="_blank">Global Good Fund</a>
+                    at Intellectual Ventures. To increase the long-term stability of bacteriophages for device field testing and use, 
+                    I developed a study that evaluated the impact of the addition of additives to the stability of bacteriophage in liquid 
+                    over eight weeks. Throughout the project, I designed a liquid assay assessment to measure bacteriophage reporter ouput, to
+                    be analyzed via excel, and conducted titer experiments as a secondary assessment. In addition, I presented research 
+                    results to senior scientists, managers and directors to support product development in the company.
+                </p>
+            </section>
+        </div>
+        
+    </main>
+
+    <div class="modal" id='modalId' tabindex="-1">
+      <div class="modal-dialog mw-100">
+        <div class="modal-content">
+          <div class="modal-body">
+            <img id='modalImage' class='mw-100'> 
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer> 
+        <div class='center buttons'> 
+            
+            <a href='https://github.com/annamcraig' target="_blank"><i class="fab fa-github fa-lg"></i></a>
+            <a href='https://www.linkedin.com/in/annamcraig' target="_blank"><i class="fab fa-linkedin fa-lg"></i></a>
+            <a href='docs/transcript.pdf' target="_blank"><i class="fas fa-graduation-cap fa-lg"></i></a>
+            <a href="mailto:craiganna9@gmail.com"><i class="fas fa-envelope fa-lg"></i></a>
+            
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/index.js"></script>
+
+</body>
 </html>
